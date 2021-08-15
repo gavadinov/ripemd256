@@ -1,5 +1,13 @@
 # RIPEMD256
+
+[![Crates.io][crates-badge]][crates-url]
+[![Documentation][docs-badge]][docs-url]
+![Apache2/MIT licensed][license-image]
+![Rust Version][rustc-image]
+
 Pure Rust implementation of the [RIPEMD256 hash function][1].
+
+> :warning: Moved to the [RustCrypto/hashes][2]
 
 ## Minimum Supported Rust Version
 
@@ -29,3 +37,11 @@ for inclusion in the work by you, as defined in the Apache-2.0 license, shall be
 dual licensed as above, without any additional terms or conditions
 
 [1]: https://en.wikipedia.org/wiki/RIPEMD
+[2]: https://github.com/RustCrypto/hashes/tree/master/ripemd256
+
+[crates-badge]: https://img.shields.io/crates/v/ripemd256.svg
+[crates-url]: https://crates.io/crates/ripemd256
+[docs-badge]: https://docs.rs/ripemd256/badge.svg
+[docs-url]: https://docs.rs/ripemd256
+[license-image]: https://img.shields.io/badge/license-Apache2.0/MIT-blue.svg
+[rustc-image]: https://img.shields.io/badge/rustc-1.41+-blue.svg
